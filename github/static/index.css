@@ -6,8 +6,11 @@
        width: 100%;
    }
    header>img{
-       width: 53px;
-       height: 53px;
+       width: 32px;
+       height: 32px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       margin-left: 10px;
        float: left;
    }
    
@@ -125,11 +128,33 @@
    
    
    .rightson{
-       height: 200px;
-       border: 1px;
-       margin:16px;
-       background-color: snow;
+        padding-top: 16px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #e1e4e8!important;
    }
+
+   .smallcircle{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+
+.linkright{
+    text-decoration: none;
+    color: #24292e;
+    font-size: 12px;
+}
+
+.linkdecb{
+    color: #586069;
+    font-size: 12px;
+}
+
+
    .whitecolor{
        background-color: white;
    }
